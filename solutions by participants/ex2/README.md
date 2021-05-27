@@ -3,6 +3,8 @@
 - In this exercise, we will factor 35 by doing phase estimation on a circuit that implements 13𝑦mod35. The exercise is to create a circuit that does this, and is also small enough to run on ibmq_santiago! This is not an easy task, so the first thing we’re going to do is cheat.
 
 A detail of Shor’s algorithm is that our circuit only needs to work on states we can reach through applying 𝑈 to the starting state |1⟩. I.e. we can use any circuit that has the behavior:
+\begin{equation}
+
 $
 \begin{aligned}
 U|1\rangle &= |13\rangle \\
@@ -11,6 +13,7 @@ UUU|1\rangle &= |27\rangle \\
 UUUU|1\rangle &= |1\rangle \\
 \end{aligned}
 $
+\end{equation}
 
 So how can we make this easier for us? Since we only need to correctly transform 4 different states, we can encode these onto two qubits. For this exercise, we will choose to map the 2-qubit computational basis states to the numbers like so:
 
