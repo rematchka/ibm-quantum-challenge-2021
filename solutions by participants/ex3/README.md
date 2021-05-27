@@ -21,20 +21,6 @@ The core of this problem is to avoid that from happening. You have to design you
 ![Alt text](images/layout.png?raw=true "layout")
 ![Alt text](images/image.png?raw=true "layout 2")
 2. Taking a deeper look into the circuit 
-c0....s0....c1
-:      :     :        
-:      :     :
-s1....c2....s2
-:      :     :
-:      :     :
-c3....s3....c4
-
-c0----------c1
-| \   s0   / |
-|   \    /   |
-| s1  c2  s2 |
-|   /    \   |
-| /   s3   \ |
-c3----------c4
+![Alt text](images/Screenshot_35.png?raw=true "layout 3")
 
 we could find that in the Right ZZZ code 1 and sync 2 are not physically connected (2,7 in the initial layout). Therefore solution is to swap it and perform correct cx operation with the swapped qubits. 
