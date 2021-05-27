@@ -7,3 +7,7 @@ Construct a Toffoli gate using the basis gates (CX, RZ, SX and X gates) of IBM Q
 ![Alt text](images/Qcircuit_Toffolipng.png?raw=true "Toffoli gate")
 - we could see that we could decomposed hadamard gate into three rotation RZ with PI/2 angle , SX, RZ  with PI/2 angle
 - T and T dagger gates can be deomposed into RZ rotation with PI/4 and -PI/4 angles.
+- Final circuit 
+![Alt text](images/final_circuit.png?raw=true "Final Toffoli gate")
+- Cost: 73
+
