@@ -20,7 +20,7 @@ But the purpose of this exercise is just to verify that Shor’s algorithm does 
 
 
 # Solutions 
-- Circuit U has the following transformation
+## Circuit U has the following transformation
 ![Alt text](images/Screenshot_32.png?raw=true "U")
 
 
@@ -31,7 +31,7 @@ But the purpose of this exercise is just to verify that Shor’s algorithm does 
 4. Circuit would be 
 ![Alt text](images/U.png?raw=true "U")
 
-- Circuit U2 has the following transformation
+## Circuit U2 has the following transformation
 ![Alt text](images/Screenshot_33.png?raw=true "U")
 
 
@@ -39,7 +39,7 @@ But the purpose of this exercise is just to verify that Shor’s algorithm does 
 2. Circuit would be 
 ![Alt text](images/U2.png?raw=true "U")
 
-- Circuit U4 has the following transformation
+## Circuit U4 has the following transformation
 ![Alt text](images/Screenshot_34.png?raw=true "U")
 
 
